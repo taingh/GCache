@@ -1,5 +1,7 @@
-module gcache
+module example
 
 go 1.13
 
-require github.com/golang/protobuf v1.3.3
+require gcache v0.0.0
+
+replace gcache => ./gcache
